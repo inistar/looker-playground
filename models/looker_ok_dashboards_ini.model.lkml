@@ -27,3 +27,11 @@ explore: num_apps_permits_data_with_coor {}
 explore: qris_applications_county_population_under_age_5 {}
 
 explore: test {}
+
+explore: alleged_victim {}
+
+explore: ok_victims_zip {}
+
+explore: service_plan {}
+
+explore: service_plan_item {}
