@@ -123,11 +123,11 @@ view: service_plan {
     type: string
     sql: Initcap(${TABLE}.Status) ;;
     html:  {% if value == 'Approved' %}
-      <p style="color: black; background-color: lightgreen; font-size:100%; text-align:center">{{ rendered_value }}</p>
+      <p style="color: black; background-color: #669b41; font-size:100%; text-align:center">{{ rendered_value }}</p>
     {% elsif value == 'Denied' %}
-      <p style="color: black; background-color: Salmon; font-size:100%; text-align:center">{{ rendered_value }}</p>
+      <p style="color: black; background-color: #e20000; font-size:100%; text-align:center">{{ rendered_value }}</p>
     {% else %}
-      <p style="color: black; background-color: orange; font-size:100%; text-align:center">{{ rendered_value }}</p>
+      <p style="color: black; background-color: #dcf1fa; font-size:100%; text-align:center">{{ rendered_value }}</p>
     {% endif %}
  ;;
   }
